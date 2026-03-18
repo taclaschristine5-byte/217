@@ -1,93 +1,85 @@
 /* ---------------------------------------------------------------------------------------------------------- 
-02 Typography - Swapping for a smooth, modern Serif/Sans pairing
+02 Typography - Smooth Serif/Sans Pairing
 ---------------------------------------------------------------------------------------------------------- */
 
-body, input, textarea { 
-    color: #333c4d; 
-} 
-
-/* Smooth Font Families */
 body { 
-    font-family: "Inter", "Helvetica Neue", Arial, sans-serif; /* Clean, modern sans */
+    font-family: 'Inter', sans-serif; 
+    color: #2f3640; 
 }
 
 h2, h3 { 
-    font-family: "Playfair Display", "Georgia", serif; /* Elegant, smooth serif */
+    /* Using a smooth, high-end serif for the large display text */
+    font-family: 'Playfair Display', serif; 
 }
 
-/* Updated Heading Colors */
 h1 { 
-    background: #d4af37; /* Muted Gold */
-    color: #fff; 
+    background: #576574; /* Muted slate accent */
+    color: #f5f6fa; 
+    /* Design properties (padding, margin, etc.) remain untouched */
 }
 
 h2 { 
     color: #ffffff; 
-    font-weight: 900; 
-    /* Design remains identical, just font/color change */
+    /* Keeps the massive scale from your screenshots */
 }
 
 h3 { 
-    color: #4a5568;
-    font-weight: 400; 
-}
-
-/* Link transitions */
-a { 
-    border-bottom: 1px solid rgba(0,0,0,0.1); 
-    color: #2c3e50; 
-}
-
-a:hover { 
-    border-color: #d4af37; /* Matches the new accent color */
+    color: #2f3640;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- 
-03 Layout - Smooth Color Re-skin (Design untouched)
+03 Layout - Smooth Geometric Colors (Structure Untouched)
 ---------------------------------------------------------------------------------------------------------- */
 
 html { 
-    background: #eef2f3; /* Soft grey-blue wash */
+    background: #dcdde1; /* Soft cool-grey outer border */
 }
 
 body { 
-    background: #2c3e50; /* Deep, smooth slate */
+    background: #1e3799; /* Deep, smooth Midnight Blue base */
+}
+
+/* The massive teal block from image 1 becomes Smooth Sage */
+section.intro { 
+    background: #54a0ff; /* Replaced with a softer, silkier blue */
+    padding: 5%; 
 }
 
 section.intro div.summary { 
-    color: #fff; 
+    color: #f5f6fa; 
 }
 
-/* Using RGBA to maintain the original transparency/layering design */
+/* The white overlapping block from image 3 */
 section.intro div.preamble { 
     background: rgba(255, 255, 255, 0.95); 
+    color: #2f3640; 
 }
 
+/* The yellow sidebar block from image 2 */
 aside.sidebar { 
-    background: rgba(245, 245, 240, 0.9); /* Warm linen */
+    background: rgba(247, 241, 227, 0.9); /* Smooth Champagne/Cream */
 }
 
-aside.sidebar ul li { 
-    color: rgba(0,0,0,0.5); 
+/* The bright red Participation block from image 4 */
+div.participation { 
+    background: rgba(7, 153, 146, 0.9); /* Smooth Deep Teal/Green */
+    color: #ffffff; 
+}
+
+/* The bottom white/grey blocks from image 5 */
+div.benefits, 
+div.requirements { 
+    background: rgba(245, 246, 250, 0.95); 
+}
+
+/* The dark grey fixed background panel */
+@media screen and (min-width:550px) {
+    div.extra1 { 
+        background: rgba(47, 54, 64, 0.85); /* Smooth Charcoal */
+    }
 }
 
 footer { 
-    background: rgba(212, 175, 55, 0.9); /* Translucent Gold */
+    background: rgba(7, 153, 146, 0.9); /* Matching the Participation block color */
     color: #fff; 
-}
-
-div.participation { 
-    background: rgba(52, 73, 94, 0.95); /* Deeper slate */
-}
-
-div.benefits, 
-div.requirements { 
-    background: rgba(255, 255, 255, 0.95); 
-}
-
-/* Fixed panel color */
-@media screen and (min-width:550px) {
-    div.extra1 { 
-        background: rgba(44, 62, 80, 0.9); 
-    }
 }
