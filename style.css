@@ -74,7 +74,7 @@
 	h4,
 	h5,
 	h6 								{ font-weight:normal; }
-	h1 								{ background:#e0b1a0; color:#0c0c0c; display:inline-block; margin-bottom:1em; padding:0.5em 1em; }
+	h1 								{ background:#0c0c0c; color:#0c0c0c; display:inline-block; margin-bottom:1em; padding:0.5em 1em; }
 	h2 								{ color:#0f0e0e; font-weight:900; /* Heavy */ font-size:6em; letter-spacing:1px; line-height:1em; }
 	h3 								{ font-size:2.25em; font-weight:200; /* Thin */ letter-spacing:1px; line-height:1em; padding:0.5em 0 0.25em 0; }
 
