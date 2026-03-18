@@ -104,7 +104,7 @@
 	---------------------------------------------------------------------------------------------------------- */
 
 	html 							{ background:#000000; padding:5%; }
-	body 						{ background:#f6e4de; }
+	body 						{ background:#f6e4de81; }
 	div.page-wrapper 				{ z-index:2; }
 
 	section.intro 					{ padding:5%; }
