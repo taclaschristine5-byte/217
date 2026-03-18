@@ -1,85 +1,90 @@
 /* ---------------------------------------------------------------------------------------------------------- 
-02 Typography - Smooth Serif/Sans Pairing
+02 Typography - Swapping for "Smooth" Modern Serif/Sans
 ---------------------------------------------------------------------------------------------------------- */
 
 body { 
-    font-family: 'Inter', sans-serif; 
-    color: #2f3640; 
+    font-family: 'Inter', -apple-system, sans-serif; 
+    color: #2d3436; 
 }
 
 h2, h3 { 
-    /* Using a smooth, high-end serif for the large display text */
-    font-family: 'Playfair Display', serif; 
+    /* Elegant serif for a smooth editorial feel */
+    font-family: 'Lora', Georgia, serif; 
 }
 
 h1 { 
-    background: #576574; /* Muted slate accent */
-    color: #f5f6fa; 
-    /* Design properties (padding, margin, etc.) remain untouched */
+    background: #b2bec3; /* Muted silver-grey */
+    color: #fff; 
+    /* No design/positioning changes */
 }
 
 h2 { 
-    color: #ffffff; 
-    /* Keeps the massive scale from your screenshots */
+    color: #fff; 
+    font-weight: 900; 
+    /* Retains original massive scale */
 }
 
 h3 { 
-    color: #2f3640;
+    color: #636e72;
+    font-weight: 400; 
 }
 
 /* ---------------------------------------------------------------------------------------------------------- 
-03 Layout - Smooth Geometric Colors (Structure Untouched)
+03 Layout - Smooth Re-skin (Design positions strictly preserved)
 ---------------------------------------------------------------------------------------------------------- */
 
 html { 
-    background: #dcdde1; /* Soft cool-grey outer border */
+    background: #dfe6e9; /* Soft cool-grey outer border */
 }
 
 body { 
-    background: #1e3799; /* Deep, smooth Midnight Blue base */
+    background: #2d3436; /* Deep charcoal "smooth" base */
 }
 
-/* The massive teal block from image 1 becomes Smooth Sage */
+/* The massive teal block from the first image */
 section.intro { 
-    background: #54a0ff; /* Replaced with a softer, silkier blue */
-    padding: 5%; 
+    background: #74b9ff; /* Muted sky blue */
 }
 
 section.intro div.summary { 
-    color: #f5f6fa; 
+    color: #fff; 
 }
 
-/* The white overlapping block from image 3 */
+/* The white overlapping block with text */
 section.intro div.preamble { 
     background: rgba(255, 255, 255, 0.95); 
-    color: #2f3640; 
+    color: #2d3436; 
 }
 
-/* The yellow sidebar block from image 2 */
+/* The yellow sidebar block */
 aside.sidebar { 
-    background: rgba(247, 241, 227, 0.9); /* Smooth Champagne/Cream */
+    background: rgba(24dfbd, 240, 235, 0.9); /* Warm cream/linen */
 }
 
-/* The bright red Participation block from image 4 */
+aside.sidebar ul li { 
+    color: rgba(0,0,0,0.4); 
+}
+
+/* The bright red "Participation" block */
 div.participation { 
-    background: rgba(7, 153, 146, 0.9); /* Smooth Deep Teal/Green */
-    color: #ffffff; 
+    background: rgba(108, 92, 231, 0.9); /* Smooth muted lavender/purple */
+    color: #fff; 
 }
 
-/* The bottom white/grey blocks from image 5 */
+/* The bottom white/grey blocks from the requirements section */
 div.benefits, 
 div.requirements { 
-    background: rgba(245, 246, 250, 0.95); 
+    background: rgba(255, 255, 255, 0.95); 
 }
 
-/* The dark grey fixed background panel */
+/* The dark grey fixed background panel on the right */
 @media screen and (min-width:550px) {
     div.extra1 { 
-        background: rgba(47, 54, 64, 0.85); /* Smooth Charcoal */
+        background: rgba(45, 52, 54, 0.9); 
     }
 }
 
 footer { 
-    background: rgba(7, 153, 146, 0.9); /* Matching the Participation block color */
+    background: rgba(108, 92, 231, 0.9); /* Matches the participation block */
     color: #fff; 
 }
