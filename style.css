@@ -1,50 +1,46 @@
-/* ---------------------------------------------------------------------------------------------------------- 
-    02 Typography - Colors Updated ------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------- */
+/* Smooth Color Theme - No layout changes */
 
-    body,
-    input,
-    textarea { color: #4a4e69; } /* Softer dark grey-blue */
+/* Body */
+body {
+    background: #f5f7f6; /* soft light background */
+    color: #2e3d2f; /* dark soft green text */
+}
 
-    /* Headings */
-    h1 { background: #9a8c98; color: #fff; display: inline-block; margin-bottom: 1em; padding: 0.5em 1em; } /* Muted Mauve */
-    h2 { color: #fff; font-weight: 900; font-size: 6em; letter-spacing: 1px; line-height: 1em; }
-    h3 { font-size: 2.25em; font-weight: 200; letter-spacing: 1px; line-height: 1em; padding: 0.5em 0 0.25em 0; }
+/* Links */
+a:link {
+    color: #4a7c59;
+    text-decoration: none;
+}
 
-    /* Links */
-    a { border-bottom: 1px solid rgba(0,0,0,0.1); color: #4a4e69; text-decoration: none; transition: border-color 0.2s ease-in-out; }
-    a:hover { border-color: #9a8c98; }
-    
-    section.intro div.summary p a,
-    div.explanation p a,
-    div.participation p a { color: #fff; }
-    div.participation p a:hover { border-color: #fff; }
+a:visited {
+    color: #6b8f71;
+}
 
-    /* Paragraph styles */
-    section.intro div.summary p:last-child, 
-    div.requirements p:last-child { border-top: 1px solid #9a8c98; margin-top: 1em; padding-top: 1.5em; }
+a:hover {
+    color: #2f5d50;
+}
 
-    /* ---------------------------------------------------------------------------------------------------------- 
-    03 Layout - Colors Updated ----------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------------- */
+/* Headings */
+h1, h2, h3 {
+    color: #355f4a;
+}
 
-    html { background: #f2e9e4; padding: 5%; } /* Warm Linen Cream */
-    body { background: #85a5a2; } /* Smooth Sage/Muted Teal */
-    
-    section.intro div.summary { color: #fff; padding: 15% 0; }
-    section.intro div.preamble { background: rgba(255,255,255,0.85); color: #4a4e69; margin-left: -30%; padding: 5% 5% 5% 30%; }
-    
-    aside.sidebar { background: rgba(201, 173, 167, 0.9); padding: 5%; } /* Soft Rose-Taupe */
-    aside.sidebar ul li { color: rgba(0,0,0,0.5); list-style: none; margin: 0; padding: 0 0 0.825em 0; }
-    
-    footer { background: rgba(201, 173, 167, 0.9); clear: both; color: #fff; padding: 1em 5%; width: 50%; }
+/* Sidebar / boxes (if you have any) */
+.sidebar, .extra1, .extra2, .extra3 {
+    background: #e8f0ec;
+}
 
-    div.explanation { color: #fff; padding: 5%; }
-    div.participation { background: rgba(154, 140, 152, 0.9); color: #fff; padding: 5%; } /* Muted Purple-Grey */
-    div.benefits { background: rgba(255,255,255,0.9); margin-top: 10%; padding: 5%; }
-    div.requirements { background: rgba(255,255,255,0.9); padding: 5%; }
+/* Sections */
+div, section {
+    background-color: transparent; /* keeps layout same */
+}
 
-    /* Media Query Color Adjustments */
-    @media screen and (min-width:550px) {
-        div.extra1 { background: rgba(74, 78, 105, 0.85); bottom: 0; right: 0; position: fixed; top: 0; width: 30%; z-index: 1; } /* Deep Muted Blue */
-    }
+/* Footer */
+footer {
+    color: #5a6f63;
+}
+
+/* Accent elements */
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+    background: #eef5f1;
+}
