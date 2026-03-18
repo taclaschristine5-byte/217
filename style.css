@@ -35,8 +35,8 @@
 	.group:after 					{ display: block; height: 0; font-size: 0; content: "."; clear: both; visibility: hidden; } /* For clearing */
 	*								{ -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; } /* Apply a natural box layout model to all elements — see http://paulirish.com/2012/box-sizing-border-box-ftw */
 
-	::-moz-selection 				{ background:#ddd; color:#222; }
-	::selection 					{ background:#ddd; color:#222; }
+	::-moz-selection 				{ background:#8a765b; color:#222; }
+	::selection 					{ background:#795c0c; color:#222; }
 
 	/* ---------------------------------------------------------------------------------------------------------- 
 	02 Typography -----------------------------------------------------------------------------------------------
@@ -140,7 +140,7 @@
 		h2 							{ font-size:8em; }
 		section.intro 				{ width:66.6%; }
 		aside.sidebar 				{ position:absolute; right:0; top:2.5%; width:32.75%; }
-		div.extra1 					{ background:rgba(180,170,165,0.9); bottom:0; right:0; position:fixed; top:0; width:30%; z-index:1; }
+		div.extra1 					{ background:rgba(195, 80, 23, 0.9); bottom:0; right:0; position:fixed; top:0; width:30%; z-index:1; }
 		div.explanation 			{ float:left; width:50%; }
 		div.participation 			{ float:left; width:49%; }
 		div.benefits 				{ float:left; }
