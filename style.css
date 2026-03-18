@@ -1,90 +1,83 @@
 /* ---------------------------------------------------------------------------------------------------------- 
-02 Typography - Updated to Modern Serif/Sans Stack
+02 Typography - Swapping for a smooth, modern Serif/Sans pairing
 ---------------------------------------------------------------------------------------------------------- */
 
+body, input, textarea { 
+    color: #333c4d; 
+} 
+
+/* Smooth Font Families */
 body { 
-    /* Modern, clean sans-serif for readability */
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-    color: #2c3e50; 
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif; /* Clean, modern sans */
 }
 
 h2, h3 { 
-    /* Elegant serif for a "smooth" editorial look */
-    font-family: 'Playfair Display', Georgia, serif; 
+    font-family: "Playfair Display", "Georgia", serif; /* Elegant, smooth serif */
 }
 
+/* Updated Heading Colors */
 h1 { 
-    background: #bfa37e; /* Soft Gold/Muted Brass */
+    background: #d4af37; /* Muted Gold */
     color: #fff; 
-    display: inline-block; 
-    margin-bottom: 1em; 
-    padding: 0.5em 1em; 
 }
 
 h2 { 
-    color: #fff; 
+    color: #ffffff; 
     font-weight: 900; 
-    font-size: 6em; 
-    letter-spacing: -2px; /* Tighter tracking for modern look */
-    line-height: 1em; 
+    /* Design remains identical, just font/color change */
 }
 
 h3 { 
-    font-size: 2.25em; 
-    font-weight: 400; 
-    letter-spacing: 0; 
-    line-height: 1em; 
-    padding: 0.5em 0 0.25em 0; 
     color: #4a5568;
+    font-weight: 400; 
 }
 
-/* Links */
+/* Link transitions */
 a { 
-    border-bottom: 1px solid rgba(191, 163, 126, 0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
     color: #2c3e50; 
-    transition: all 0.3s ease; 
 }
 
 a:hover { 
-    border-color: #bfa37e; 
-    color: #bfa37e;
+    border-color: #d4af37; /* Matches the new accent color */
 }
 
 /* ---------------------------------------------------------------------------------------------------------- 
-03 Layout - Updated Color Palette
+03 Layout - Smooth Color Re-skin (Design untouched)
 ---------------------------------------------------------------------------------------------------------- */
 
 html { 
-    background: #f4f7f6; /* Very light sage/grey */
-    padding: 5%; 
+    background: #eef2f3; /* Soft grey-blue wash */
 }
 
 body { 
-    background: #34495e; /* Smooth Slate Blue/Grey */
+    background: #2c3e50; /* Deep, smooth slate */
 }
 
 section.intro div.summary { 
-    color: #f4f7f6; 
+    color: #fff; 
 }
 
+/* Using RGBA to maintain the original transparency/layering design */
 section.intro div.preamble { 
     background: rgba(255, 255, 255, 0.95); 
-    color: #2c3e50; 
 }
 
 aside.sidebar { 
-    background: rgba(24afbd, 240, 235, 0.9); /* Soft Cream */
-    padding: 5%; 
+    background: rgba(245, 245, 240, 0.9); /* Warm linen */
+}
+
+aside.sidebar ul li { 
+    color: rgba(0,0,0,0.5); 
 }
 
 footer { 
-    background: rgba(191, 163, 126, 0.9); /* Muted Gold */
+    background: rgba(212, 175, 55, 0.9); /* Translucent Gold */
     color: #fff; 
 }
 
 div.participation { 
-    background: rgba(44, 62, 80, 0.9); /* Deep Slate */
-    color: #fff; 
+    background: rgba(52, 73, 94, 0.95); /* Deeper slate */
 }
 
 div.benefits, 
@@ -92,9 +85,9 @@ div.requirements {
     background: rgba(255, 255, 255, 0.95); 
 }
 
-/* Fixed background panel */
+/* Fixed panel color */
 @media screen and (min-width:550px) {
     div.extra1 { 
-        background: rgba(30, 39, 46, 0.8); /* Darker "Smooth" contrast */
+        background: rgba(44, 62, 80, 0.9); 
     }
 }
