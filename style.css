@@ -1,46 +1,49 @@
 /* Smooth Color Theme - No layout changes */
 
-/* Body */
+/* Body - Using a very soft, desaturated mint-grey */
 body {
-    background: #f5f7f6; /* soft light background */
-    color: #2e3d2f; /* dark soft green text */
+    background: #f0f4f2; 
+    color: #4a544e; /* Softened the dark green to a deep slate green */
 }
 
-/* Links */
+/* Links - Using a muted sage */
 a:link {
-    color: #4a7c59;
+    color: #6a8d7a;
     text-decoration: none;
+    transition: color 0.3s ease; /* Added a smooth transition effect */
 }
 
 a:visited {
-    color: #6b8f71;
+    color: #8da396;
 }
 
 a:hover {
-    color: #2f5d50;
+    color: #4a6d59;
+    border-bottom: 1px solid #c2d1c9; /* Subtle underline instead of sharp color change */
 }
 
-/* Headings */
+/* Headings - Deeper tone for hierarchy but still muted */
 h1, h2, h3 {
-    color: #355f4a;
+    color: #3e5248;
 }
 
-/* Sidebar / boxes (if you have any) */
+/* Sidebar / boxes - Blending more closely with the body */
 .sidebar, .extra1, .extra2, .extra3 {
-    background: #e8f0ec;
+    background: #e2ede7;
 }
 
-/* Sections */
+/* Sections - Ensuring transparency as requested */
 div, section {
-    background-color: transparent; /* keeps layout same */
+    background-color: transparent; 
 }
 
-/* Footer */
+/* Footer - Low contrast for a clean finish */
 footer {
-    color: #5a6f63;
+    color: #8b9991;
 }
 
-/* Accent elements */
+/* Accent elements - Using "layered" whites for a smooth depth */
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
-    background: #eef5f1;
+    background: #f7faf9; 
+    border: 1px solid #e1e8e4; /* Extremely faint border to define shape smoothly */
 }
