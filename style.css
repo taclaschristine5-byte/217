@@ -8,7 +8,52 @@ body {
 
 /* Links - Using a muted sage */
 a:link {
-    color: #6a8d7a;
+    /* Smooth Color Theme - No layout changes */
+
+/* Body */
+body {
+    background: #f5f7f6; /* soft light background */
+    color: #2e3d2f; /* dark soft green text */
+}
+
+/* Links */
+a:link {
+    color: #4a7c59;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6b8f71;
+}
+
+a:hover {
+    color: #2f5d50;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #355f4a;
+}
+
+/* Sidebar / boxes (if you have any) */
+.sidebar, .extra1, .extra2, .extra3 {
+    background: #e8f0ec;
+}
+
+/* Sections */
+div, section {
+    background-color: transparent; /* keeps layout same */
+}
+
+/* Footer */
+footer {
+    color: #5a6f63;
+}
+
+/* Accent elements */
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+    background: #eef5f1;
+}d7a;
     text-decoration: none;
     transition: color 0.3s ease; /* Added a smooth transition effect */
 }
